@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hello World</title>
+    <link rel="icon" href="../images/logo1.png">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+        }
+
+        @keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .text {font-size: 11px}
+        }
+    </style>
+</head>
+<body class="single-event-page">
+<header id="ser" class="site-header">
+    <div class="header-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-10 col-lg-2 order-lg-1">
+                    <div class="site-branding">
+                        <div class="site-title">
+                            <a href="#"><img src="../images/logo1.png" alt="logo"></a>
+                        </div><!-- .site-title -->
+                    </div><!-- .site-branding -->
+                </div><!-- .col -->
+
+                <div class="col-2 col-lg-7 order-3 order-lg-2">
+                    <nav class="site-navigation">
+                        <div class="hamburger-menu d-lg-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- .hamburger-menu -->
+
+                        <ul>
+                            <li><a href="../index.php">Home</a></li>
+                            <li><a href="../About%20Us.php">About us</a></li>
+                            <li><a href="#ser" >Services</a></li>
+                            <li><a href="../Team.php" >Team</a></li>
+                            <li><a href="#contact">contact</a></li>
+                        </ul>
+                    </nav><!-- .site-navigation -->
+                </div><!-- .col -->
+
+                <div class="col-lg-3 d-none d-lg-block order-2 order-lg-3">
+                    <div class="buy-tickets">
+                        <a class="btn gradient-bg" href="#">Buy Tickets</a>
+                    </div><!-- .buy-tickets -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container-fluid -->
+    </div><!-- .header-bar -->
+
+    <div class="page-header single-event-page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <header class="entry-header">
+                        <h1 class="entry-title"> Our Services</h1>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </div>
+</header><!-- .site-header -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 single-event">
+            <div class="event-content-wrap">
+                <header class="entry-header flex flex-wrap justify-content-between align-items-end">
+                    <div class="single-event-heading">
+                        <h2 class="entry-title"><u>Weddings</u></h2>
+                        <br><br>
+                        <h2>Vail Wedding Deck</h2>
+                        <div style="font-size: 14px;font-weight: bold;color: #232127;text-decoration: none;"><p>Plan Your Wedding with the Connections to The Best Vendors For Your Personal Event.</p></div>
+
+                        <div class="event-date">We provides you with local face-to-face service with a little black book of fabulous local venues, vendors and resources to make your wedding come to life. Our passionate team knows these settings intimately and has personal relationships with the people we work with. We make design and destination planning simple!
+
+                            Our weekend-planning clients graciously invest in multi-day events focused on their guest’s experience and creating lasting memories. We take a collaborative approach to wedding planning with each client bringing their unique vision for this once-in-a-lifetime weekend and together we make your vision a reality</div>
+                    </div>
+                </header>
+
+                <figure class="events-thumbnail">
+
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 5</div>
+                            <img src="../images/Vail-Wedding-Deck-Molly-32.jpg" style="width:100%">
+                            <div class="text">Caption Text</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 5</div>
+                            <img src="../images/Caroline_David_Portraits-85.jpg" style="width:100%">
+                            <div class="text">Caption Two</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 5</div>
+                            <img src="../images/about-1.jpg" style="width:100%">
+                            <div class="text">Caption Three</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 5</div>
+                            <img src="../images/Caroline_David_Portraits-60.jpg" style="width:100%">
+                            <div class="text">Caption Three</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 5</div>
+                            <img src="../images/Caroline_David_GettingReady-14.jpg" style="width:100%">
+                            <div class="text">Caption Three</div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-12 single-event">
+            <div class="event-content-wrap">
+                <header class="entry-header flex flex-wrap justify-content-between align-items-end">
+                    <div class="single-event-heading">
+                        <h2 class="entry-title"><u>Private</u></h2>
+
+                        <div style="font-size: 14px;font-weight: bold;color: #232127;text-decoration: none;"><p>We cater for every aspect of each event with a flexible range of services at your complete disposal.
+
+                        </p></div>
+
+                        <div class="event-date">No matter what the size of your event or the occasion, we will work closely with you from concept to creation in order to deliver an event that surpasses your expectations. Alternatively speak to us about our pre-planned, pre-perfected turnkey events, which we can deliver immediately</div>
+                    </div>
+                </header>
+
+                <figure class="events-thumbnail">
+
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 2</div>
+                            <img src="../images/img1.jpg" style="width:100%">
+                            <div class="text">Caption Text</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 2</div>
+                            <img src="../images/img2.jpg" style="width:100%">
+                            <div class="text">Caption Two</div>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 single-event">
+            <div class="event-content-wrap">
+                <header class="entry-header flex flex-wrap justify-content-between align-items-end">
+                    <div class="single-event-heading">
+                        <h2 class="entry-title"><u>Corporate</u></h2>
+
+                        <div style="font-size: 14px;font-weight: bold;color: #232127;text-decoration: none;"><p>We cater for every aspect of each event with a flexible range of services at your complete disposal.
+
+                        </p></div>
+
+                        <div class="event-date">No matter what the size of your event or the occasion, we will work closely with you from concept to creation in order to deliver an event that surpasses your expectations. Alternatively speak to us about our pre-planned, pre-perfected turnkey events, which we can deliver immediately</div>
+                    </div>
+                </header>
+
+                <figure class="events-thumbnail">
+
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 5</div>
+                            <img src="../images/Untitled-1-copy-97.jpg" style="width:100%">
+                            <div class="text">Caption Text</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 5</div>
+                            <img src="../images/img-content-event-services-2.jpg" style="width:100%">
+                            <div class="text">Caption Two</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 5</div>
+                            <img src="../images/hkdl-corporate-events-2.jpg" style="width:100%">
+                            <div class="text">Caption Two</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 5</div>
+                            <img src="../images/corporate-event-planner.jpg" style="width:100%">
+                            <div class="text">Caption Two</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 5</div>
+                            <img src="../images/5c4976f9b5380b000102633d.jpg" style="width:100%">
+                            <div class="text">Caption Two</div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+<div id="contact" class="newsletter-subscribe">
+
+    <div class="container">
+        <header class="entry-header">
+            <h1 class="entry-title">Contact Us</h1>
+        </header>
+        <div class="row">
+            <div class="col-12">
+                <div class="contact-form">
+                    <form class="row">
+                        <div style="margin-bottom: 1em" class="col-12 col-md-4"><input type="text" placeholder="Name"></div>
+                        <div style="margin-bottom: 1em" class="col-12 col-md-4"><input type="email" placeholder="E-mail"></div>
+                        <div style="margin-bottom: 1em" class="col-12 col-md-4"><input type="text" placeholder="Subject"></div>
+                        <div style="margin-left: 0.5em" class="col-12"><textarea placeholder="Message" rows="8"></textarea></div>
+                        <div class="col-12 flex justify-content-center"><input class="btn gradient-bg" type="submit" value="Send Message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <figure class="footer-logo">
+                    <a href="../index.php"><img src="../images/logo1.png" alt="logo"></a>
+                </figure>
+
+                <nav class="footer-navigation">
+                    <ul class="flex flex-wrap justify-content-center align-items-center">
+                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="../About%20Us.php">About us</a></li>
+                        <li><a href="../Team.php">Team</a></li>
+                        <li><a href="#ser">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+                <div class="footer-social">
+                    <ul class="flex flex-wrap justify-content-center align-items-center">
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="back-to-top flex justify-content-center align-items-center">
+    <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1395 1184q0 13-10 23l-50 50q-10 10-23 10t-23-10l-393-393-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
+</div>
+
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+<script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+<script type='text/javascript' src='js/swiper.min.js'></script>
+<script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+<script type='text/javascript' src='js/circle-progress.min.js'></script>
+<script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+<script type='text/javascript' src='js/custom.js'></script>
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
+</body>
+</html>
